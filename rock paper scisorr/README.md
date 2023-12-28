@@ -8,7 +8,7 @@ This simple web-based game is built using JavaScript, HTML, and CSS. It allows u
 + Randomized Computer Move: The computer's move is randomly generated for each round, providing a dynamic and unpredictable gaming experience.
 
 + Score Tracking: The game keeps track of the player's and computer's scores, allowing users to see who is winning.
-+ 
+
 ## Technologies Used
 - HTML5
 - CSS3
