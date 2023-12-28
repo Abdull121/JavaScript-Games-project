@@ -19,7 +19,7 @@ If the grid is full and no player has won, the game is a draw.
 ## Screenshots
 Include screenshots of the game in action or any relevant images.
 ![image](https://github.com/Abdull121/JavaScript-Games/assets/93944428/a1c80db2-f4a6-4947-adad-62463238404a)
-![image](https://github.com/Abdull121/JavaScript-Games/assets/93944428/5e36e1c9-accd-40c3-9539-3de3898464d0)
+
 
 
 
