@@ -18,7 +18,11 @@ The first player to get three of their symbols in a row (horizontally, verticall
 If the grid is full and no player has won, the game is a draw.
 ## Screenshots
 Include screenshots of the game in action or any relevant images.
-![tic tac toe](https://github.com/Abdull121/Tic-Tac-Toe-JavaScript-Game/assets/93944428/f5062af3-2eed-45fb-baf1-f0d762a10365)
+![image](https://github.com/Abdull121/JavaScript-Games/assets/93944428/a1c80db2-f4a6-4947-adad-62463238404a)
+![image](https://github.com/Abdull121/JavaScript-Games/assets/93944428/5e36e1c9-accd-40c3-9539-3de3898464d0)
+
+
+
 
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, please submit a pull request.
