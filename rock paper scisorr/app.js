@@ -2,6 +2,8 @@ const choices = document.querySelectorAll(".choice");
 const userVal = document.querySelector("#user-score");
 const compVal = document.querySelector("#comp-score");
 const displayResult = document.querySelector("#result");
+const userSelection = document.querySelector("#user-select");
+const compSelection = document.querySelector("#comp-select");
 
 let userScore = 0;
 let CompScore = 0;
@@ -9,6 +11,12 @@ let CompScore = 0;
 choices.forEach((choose) => {
   choose.addEventListener("click", () => {
     const userChoice = choose.getAttribute("id");
+    console.log(userChoice)
+    userSelection.style.display="block";
+    userSelection.innerText=userChoice;
+   
+    
+
 
     playGame(userChoice);
   });
@@ -49,6 +57,9 @@ let drawGame = () => {
 let playGame = (user) => {
   // computerChoice
   const compChoice = compGen();
+  console.log(compChoice)
+  compSelection.style.display="block";
+  compSelection.innerText = compChoice
 
   if (user === compChoice) {
     //game draw
