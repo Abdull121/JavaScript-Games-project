@@ -11,7 +11,7 @@ let CompScore = 0;
 choices.forEach((choose) => {
   choose.addEventListener("click", () => {
     const userChoice = choose.getAttribute("id");
-    console.log(userChoice)
+    
     userSelection.style.display="block";
     userSelection.innerText=userChoice;
    
@@ -57,7 +57,7 @@ let drawGame = () => {
 let playGame = (user) => {
   // computerChoice
   const compChoice = compGen();
-  console.log(compChoice)
+
   compSelection.style.display="block";
   compSelection.innerText = compChoice
 
