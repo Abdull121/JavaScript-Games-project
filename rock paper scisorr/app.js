@@ -26,7 +26,7 @@ choices.forEach((choose) => {
 
 let compGen = () => {
   let arr = ["rock", "paper", "scissor"];
-  return (comp = arr[Math.floor(Math.random() * 3)]);
+  return (arr[Math.floor(Math.random() * 3)]);
 };
 
 // display winner
