@@ -8,7 +8,7 @@ let startNewGame = document.querySelector("#newgame");
 startNewGame.style.display = "none";
 
 let draw = true;
-count = 0; // track the boxes
+let count = 0; // track the boxes
 
 let turnO = true;
 let winPattern = [
@@ -72,7 +72,7 @@ startNewGame.addEventListener("click", resetGame);
 // hideGame
 
 let hideGame = () => {
-  for (boxElement of box) {
+  for (let boxElement of box) {
     boxElement.style.display = "none";
   }
   heading.style.display = "none";
